@@ -21,6 +21,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { AgmCoreModule } from '@agm/core';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
+import { GarageCustomComponent } from './shared/garage-custom/garage-custom.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { CommonModule } from '@angular/common';
     StartComponent,
     PoradnikComponent,
     GarageCardComponent,
-    FooterComponent
+    FooterComponent,
+    GarageCustomComponent
   ],
   imports: [
     BrowserModule,
