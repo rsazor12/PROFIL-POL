@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ProfilPol.Core.Domain.GarageComponents
 {
-    class Window
+    public class Window
     {
         public double XLength { get; protected set; }
         public double YLength { get; protected set; }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ProfilPol.Core.Domain
 {
-    class Order: Entity
+    public class Order: Entity
     {
         public User User { get; protected set; }
         public Garage Garage { get; protected set; }
